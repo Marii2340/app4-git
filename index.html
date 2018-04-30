@@ -1,0 +1,341 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine4/style.css" />
+<script type="text/javascript" src="engine4/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Datos del alumno</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupoJavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"></scrpit -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/archivos/bicc2.jpg','imagenes/archivos/tip2.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Contaminación ambiental</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Contaminación ambiental:</h1>
+  <div>
+  <p>Esta es una imagen de contaminación: </p>
+  <br>
+  </div>
+  <div>
+   <img src="imagenes/cont2.jpg" width="60%" height="60%">
+      </div>
+   </div>
+   </div>
+   
+  
+
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  
+  <h1>Contaminación:</h1>
+  <div>
+  <p>Esta es una imagen de contaminación: </p>
+  <br>
+  </div>
+  <div>
+   <img src="imagenes/cont6.jpg" width="60%" height="60%">
+      
+   </div>
+   </div>
+
+</div>
+<div>
+   </div>
+
+   <div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Definición</h2>
+   <p>¿Qué es la contaminación?</p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Tipos de contaminación</h2>
+    <p>Se muestran los tipos de contaminación que existen</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Consecuencias</h2>
+    <p>Demostración de las consecuencias</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Reciclaje</h2>
+    <p>¿Qué es y como se clasifica el reciclaje?</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Medidas para combatirla en mi comunidad</h2>
+    
+    </a>
+    </li>
+    </ul>
+  </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+    <h4>Aplicación Cuatro</h4>
+    <h4>Maria Ignacia Postrero Santos</h4>
+    </div>
+    </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Definicion</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+ <img src="imagenes/planeta.jpg"  width="60%" height="60%">
+    <p>
+    La contaminación es la introducción de un agente contaminante, que puede ser líquido, sólido o gaseoso, y que por sus características químicas, cuando se adentra en un medio natural, causa su inestabilidad y daña el funcionamiento del ecosistema. De esta manera se afecta conllevando riesgos para los seres vivos que residen en él.</p>
+    <p>La contaminación ambiental es la integración desfavorable y la incorporación de cuerpos y sustancias cuyo material e ingredientes, afectan las condiciones naturales de un medio, esto cuando ocurre el período de descomposición del elemento lleva a  la propagación y producción de sustancias y olores que pueden afectar la salud y el bienestar de la comunidad gravemente.
+    </p>
+    </div>
+    </div>
+    <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/plan.jpg',1)"><img src="imagenes/cont3.jpeg"  width="50%" height="50%" id="Image10"></a> </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Cuatro, MIPS</h4>
+    </div>
+</div>
+     
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Tipos de contaminación</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <h2>Existen muchos tipos de contaminación ambiental y agentes contaminantes que están alterando y destruyendo la calidad de los principales elementos naturales renovables como el aire, agua, suelo, flora y fauna.</h2></div>
+    </div>
+    <p>
+     Los principales son:
+    </p>
+    
+    <li>Contaminación del aire o atmosférica:</li>
+    <p>Producto de los gases de efecto invernadero y los combustibles fósiles que transforman la calidad del aire y la atmósfera del planeta.</p>
+    <img src="imagenes/cont2.jpg" width="60%" height="60%">
+    <li>Contaminación del agua:</li>
+    <p>Producto de actividades domésticas, industriales, agrícolas, agropecuarias, mineras, económicas, sociales y ambientales que alteran la calidad de los cuerpos de aguas del planeta por desechos sólidos y sustancias liquidas.</p>
+    <li>Contaminación del suelo:</li>
+    <p>Producto de actividades humanas que por residuos sólidos y sustancias químicas degradan la productividad y fertilidad del recurso suelo o tierra.</p>
+    <img src="imagenes/archivos/suelo.jpg" width="60%" height="60%">
+    <li>Contaminación de la flora y fauna:</li>
+    <p>Producto de la contaminación del aire, agua y suelo que causan la muerte de especies animales y vegetales como la diversidad biológica del planeta.</p>
+    <img src="imagenes/archivos/fauna.jpg" width="60%" height="60%">
+    <li>Contaminación acústica o sonora:</li>
+    <p>Causada por cualquier ruido excesivo en un entorno determinado que perturba la tranquilidad y armonía de vivir en paz.</p>
+    <li>Contaminación radiactiva o nuclear:</li>
+    <p>Producto por sustancias radiactivas y nucleares que alteran y destruyen el medio ambiente.</p>
+    <img src="imagenes/cont3.jpeg" width="60%" height="60%">
+    <li>Contaminación química:</li>
+    <p>Producto de agentes o sustancias químicas que impactan sobre los seres vivos y el ambiente.</p>
+    <li>Contaminación lumínica:</li>
+    <p>Causada por la excesiva cantidad de luces artificiales nocturnas.</p>
+    <img src="imagenes/cont5.jpg" width="60%" height="60%">
+    <li>Contaminación visual:</li>
+    <p>Causada por la cantidad de letreros publicitarios que impiden la visibilidad de cualquier objeto en un lugar determinado.</p>
+    <img src="imagenes/archivos/visual.jpg" width="60%" height="60%">
+    <li>Contaminación térmica:</li>  
+    <p>Causada por la alta o baja temperatura que altera la calidad del aire y el agua.</p>
+    <img src="imagenes/archivos/termica.jpg" width="60%" height="60%">
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container4" align="center">
+<div class="ws_images"><ul>
+		<li><img src="data4/images/contaminacion.jpg" alt="contaminacion" title="contaminacion" id="wows4_0"/></li>
+		<li><img src="data4/images/difusa.jpg" alt="difusa" title="difusa" id="wows4_1"/></li>
+		<li><img src="data4/images/fauna.jpg" alt="fauna" title="fauna" id="wows4_2"/></li>
+		<li><img src="data4/images/nuc.jpg" alt="nuc" title="nuc" id="wows4_3"/></li>
+		<li><img src="data4/images/riesgos.jpg" alt="riesgos" title="riesgos" id="wows4_4"/></li>
+		<li><img src="data4/images/suelo.jpg" alt="suelo" title="suelo" id="wows4_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data4/images/termica.jpg" alt="jquery carousel" title="termica" id="wows4_6"/></a></li>
+		<li><img src="data4/images/visual.jpg" alt="visual" title="visual" id="wows4_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="contaminacion"><span><img src="data4/tooltips/contaminacion.jpg" alt="contaminacion"/>1</span></a>
+		<a href="#" title="difusa"><span><img src="data4/tooltips/difusa.jpg" alt="difusa"/>2</span></a>
+		<a href="#" title="fauna"><span><img src="data4/tooltips/fauna.jpg" alt="fauna"/>3</span></a>
+		<a href="#" title="nuc"><span><img src="data4/tooltips/nuc.jpg" alt="nuc"/>4</span></a>
+		<a href="#" title="riesgos"><span><img src="data4/tooltips/riesgos.jpg" alt="riesgos"/>5</span></a>
+		<a href="#" title="suelo"><span><img src="data4/tooltips/suelo.jpg" alt="suelo"/>6</span></a>
+		<a href="#" title="termica"><span><img src="data4/tooltips/termica.jpg" alt="termica"/>7</span></a>
+		<a href="#" title="visual"><span><img src="data4/tooltips/visual.jpg" alt="visual"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine4/wowslider.js"></script>
+<script type="text/javascript" src="engine4/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Cuatro, MIPS</h4>
+    </div>
+    </div>
+    </div>
+    
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Consecuencias</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <p>Las consecuencias de la contaminación ambiental afectan gravemente la salud humana, la salud animal, los bosques y vegetación, y el ambiente en general.</p></div>
+    <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/cont4.jpg',1)"><img src="imagenes/plan.jpg" width="50%" height="50%" id="Image11"></a> </div>
+  </div>
+  <li>Aumento del polen</li>
+  <p>
+  Esto tiene como resultado el incremento de alergias desenfrenadas, ataques de asma y problemas respiratorios a lo largo del mundo, afectando a la salud de billones de personas.
+  </p>
+  <div>
+  <img src="imagenes/cont8.jpg" width="60%" height="60%">
+  </div>
+  <li>Aumento de enfermedades de transmisión por el agua</li>
+  <p>
+  La contaminación del agua es la causa principal de varias enfermedades de transmisión acuática.
+  </p>
+  <img src="imagenes/cont4.jpg" width="60%" height="60%">
+  <li>Pérdida de la biodiversidad </li>
+  <p>
+  Cientos de seres vivos y plantas han sido extinguidos de la Tierra porque la contaminación de su ambiente hizo imposible su existencia en el planeta.
+  </p>
+  <img src="imagenes/cont9.jpg" width="60%" height="60%">
+  <li>Problemas de salud en los humanos</li>
+  <p>
+  Los contaminantes del suelo también pueden causar enfermedades de la piel, desórdenes del sistema nervioso central y bloqueo muscular.
+  </p>
+  <img src="imagenes/cont10.jpg" width="60%" height="60%">
+  <li>Efectos negativos en el crecimiento de las plantas</li>
+  <p>
+  La contaminación del suelo causa que grandes extensiones de tierra se conviertan en escenarios peligrosos para la salud; dicha tierra no puede soportar la mayoría de las formas de vida. 
+  </p>
+  <li>Calentamiento global</li>
+  <p>
+  La emisión de los gases invernadero, particularmente de dióxido de carbono (CO2), está incrementando el calentamiento global.
+  </p>
+  <img src="imagenes/cont.jpg" width="60%" height="60%">
+  <a href="https://www.renovablesverdes.com/contaminacion-atmosferica/" target="_self"/> Más consecuencias...</a>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Cuatro, MIPS</h4>
+    </div>
+    </div>
+    
+    
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Reciclaje</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div> 
+    </div>
+    </div>
+
+    <img src="imagenes/rec1.jpg" width="50%" height="50%">
+    <p>
+     El reciclaje consiste en obtener una nueva materia prima o producto, mediante un proceso fisicoquímico o mecánico, a partir de productos y materiales ya en desuso o utilizado. De esta forma, conseguimos alargar el ciclo de vida de un producto, ahorrando materiales y beneficiando al medio ambiente al generar menos residuos. El reciclaje surge no sólo para eliminar residuos, sino para hacer frente al agotamiento de los recursos naturales del planeta.
+    </p>
+    <h2>Estrategia de tratamiento de residuos:</h2>
+    <p>El reciclaje, al margen de su complejo proceso de transformación, es uno de los puntos básicos de estrategia de tratamiento de residuos 3R.</p>
+    <li>Reducir:</li>
+    <p>Acciones para reducir la producción de objetos susceptibles de convertirse en residuos.</p>
+    <li>Reutilizar:</li>
+    <p>Acciones que permiten el volver a usar un producto para darle una segunda vida, con el mismo uso u otro diferente.</p>
+    <li>Reciclar:</li>
+    <p>El conjunto de operaciones de recogida y tratamiento de residuos que permiten reintroducirlos en un ciclo de vida.</p>
+    <h2>Colores del reciclaje:</h2>
+    <p>Aprende a diferenciar los diferentes contenedores de reciclaje por colores, un código universal muy sencillo que ayudará a que recicles mejor materiales como el plástico, papel, materia orgánica o desechos peligrosos.</p>
+    <img src="imagenes/rec2.jpg" width="60%" height="60%">
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Cuatro, MIPS</h4>
+    </div>
+    </div>
+    
+    
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Medidas para combatirla en mi comunidad</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    
+
+    <h2>5 Medidas.</h2></div>
+   <li>Pedirle al presidente que compre botes para depositar la basura</li>
+    <img src="imagenes/c5.jpg" width="60%" height="60%">
+   <li>Organizar grupos para vigilar que no pinten las paredes</li>
+    <img src="imagenes/c4.jpg" width="60%" height="60%">
+   <li>Multar al que tire y queme basura</li>
+   <li>Controlar el uso de fertilizantes y pesticidas.</li>
+    <img src="imagenes/c3.jpg" width="60%" height="60%">
+   <li>Las personas que salgan a pasear a sus mascotas, limpien su suciedad</li>
+    <img src="imagenes/c.jpg" width="60%" height="60%">
+   <li>Colocar letreros que digan NO TIRAR BASURA</li>
+    <img src="imagenes/c6.jpg" width="60%" height="60%">
+
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Cuatro, MIPS</h4>
+    </div>
+    </div>
+</body>
+</html>
